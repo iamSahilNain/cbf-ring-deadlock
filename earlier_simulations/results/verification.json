@@ -1,0 +1,2757 @@
+{
+  "random_qp_cases": 500,
+  "seed": 20260909,
+  "maximum_coordinate_error": 2.1760371282653068e-14,
+  "maximum_halfspace_violation": 0.0,
+  "head_on_boundary_centralized_max_speed": 2.886579864025407e-15,
+  "head_on_boundary_decentralized_max_speed": 2.886579864025407e-15,
+  "already_at_goal_check": true,
+  "left_sign_centralized": [
+    [
+      0.3199999999999945,
+      0.6
+    ],
+    [
+      -0.3199999999999945,
+      -0.6
+    ]
+  ],
+  "left_sign_decentralized": [
+    [
+      0.3199999999999945,
+      0.6
+    ],
+    [
+      -0.3199999999999945,
+      -0.6
+    ]
+  ],
+  "random_trajectory_seed": 314159,
+  "random_trajectory_runs": 80,
+  "random_minimum_separation_m": 0.6146417477894639,
+  "random_maximum_speed_mps": 0.9999999999999999,
+  "random_minimum_cbf_residual": 0.0,
+  "random_completed": 80,
+  "random_trajectory_records": [
+    {
+      "scenario": 0,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          2.4693156716215174,
+          -1.1173871812856402
+        ],
+        [
+          0.9026433866483399,
+          1.876533130692051
+        ]
+      ],
+      "goals": [
+        [
+          -2.3732150572003956,
+          0.05902146842679712
+        ],
+        [
+          -0.27049184920425917,
+          -2.267115614734089
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.24,
+      "min_separation_m": 0.9383383471026975,
+      "final_max_goal_error_m": 0.048305344740809435,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.666750552221732,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.6755341242711668
+    },
+    {
+      "scenario": 0,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          2.4693156716215174,
+          -1.1173871812856402
+        ],
+        [
+          0.9026433866483399,
+          1.876533130692051
+        ]
+      ],
+      "goals": [
+        [
+          -2.3732150572003956,
+          0.05902146842679712
+        ],
+        [
+          -0.27049184920425917,
+          -2.267115614734089
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.68,
+      "min_separation_m": 0.6541035859440018,
+      "final_max_goal_error_m": 0.04914306178736565,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.130827532889363,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.8318679906315083e-15
+    },
+    {
+      "scenario": 0,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          2.4693156716215174,
+          -1.1173871812856402
+        ],
+        [
+          0.9026433866483399,
+          1.876533130692051
+        ]
+      ],
+      "goals": [
+        [
+          -2.3732150572003956,
+          0.05902146842679712
+        ],
+        [
+          -0.27049184920425917,
+          -2.267115614734089
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.6,
+      "min_separation_m": 0.6868348589459293,
+      "final_max_goal_error_m": 0.04891386570405445,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.646265621260817,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 2.7755575615628914e-16
+    },
+    {
+      "scenario": 0,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          2.4693156716215174,
+          -1.1173871812856402
+        ],
+        [
+          0.9026433866483399,
+          1.876533130692051
+        ]
+      ],
+      "goals": [
+        [
+          -2.3732150572003956,
+          0.05902146842679712
+        ],
+        [
+          -0.27049184920425917,
+          -2.267115614734089
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.72,
+      "min_separation_m": 0.6408556616321042,
+      "final_max_goal_error_m": 0.049801616098295816,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.014189189268958,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.3306690738754696e-16
+    },
+    {
+      "scenario": 1,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -0.8334317391886714,
+          0.5786037329786844
+        ],
+        [
+          1.2255730170895442,
+          1.0164820024191983
+        ]
+      ],
+      "goals": [
+        [
+          2.232421665293483,
+          0.12590336522133838
+        ],
+        [
+          -2.387415735518468,
+          0.38371223755473793
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.48,
+      "min_separation_m": 0.6669048975180826,
+      "final_max_goal_error_m": 0.048163765000538095,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.906188811782306,
+      "max_speed_mps": 0.9488928155100682,
+      "min_cbf_residual": 2.9976021664879227e-15
+    },
+    {
+      "scenario": 1,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -0.8334317391886714,
+          0.5786037329786844
+        ],
+        [
+          1.2255730170895442,
+          1.0164820024191983
+        ]
+      ],
+      "goals": [
+        [
+          2.232421665293483,
+          0.12590336522133838
+        ],
+        [
+          -2.387415735518468,
+          0.38371223755473793
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.12,
+      "min_separation_m": 0.6841078723367447,
+      "final_max_goal_error_m": 0.048241825880182845,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 7.33278905339369,
+      "max_speed_mps": 0.9488928155100682,
+      "min_cbf_residual": 1.4432899320127035e-15
+    },
+    {
+      "scenario": 1,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -0.8334317391886714,
+          0.5786037329786844
+        ],
+        [
+          1.2255730170895442,
+          1.0164820024191983
+        ]
+      ],
+      "goals": [
+        [
+          2.232421665293483,
+          0.12590336522133838
+        ],
+        [
+          -2.387415735518468,
+          0.38371223755473793
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.28,
+      "min_separation_m": 0.6630089914957554,
+      "final_max_goal_error_m": 0.04964057176099581,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.924141818178617,
+      "max_speed_mps": 0.9488928155100682,
+      "min_cbf_residual": 4.440892098500626e-16
+    },
+    {
+      "scenario": 1,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -0.8334317391886714,
+          0.5786037329786844
+        ],
+        [
+          1.2255730170895442,
+          1.0164820024191983
+        ]
+      ],
+      "goals": [
+        [
+          2.232421665293483,
+          0.12590336522133838
+        ],
+        [
+          -2.387415735518468,
+          0.38371223755473793
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.12,
+      "min_separation_m": 0.6801119935408422,
+      "final_max_goal_error_m": 0.04826456223511937,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 7.332004142205905,
+      "max_speed_mps": 0.9488928155100682,
+      "min_cbf_residual": 0.0
+    },
+    {
+      "scenario": 2,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          1.8827035242353667,
+          -1.3873185978043863
+        ],
+        [
+          -2.4876453977431825,
+          -0.9945408629990442
+        ]
+      ],
+      "goals": [
+        [
+          -0.48593756437199875,
+          -1.0041789891903539
+        ],
+        [
+          -1.0380771500853165,
+          -1.5077464796461018
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.96,
+      "min_separation_m": 0.7911772729754478,
+      "final_max_goal_error_m": 0.04963452778449929,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.9065646331591104,
+      "max_speed_mps": 0.8737162039003779,
+      "min_cbf_residual": 0.46309112863319146
+    },
+    {
+      "scenario": 2,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          1.8827035242353667,
+          -1.3873185978043863
+        ],
+        [
+          -2.4876453977431825,
+          -0.9945408629990442
+        ]
+      ],
+      "goals": [
+        [
+          -0.48593756437199875,
+          -1.0041789891903539
+        ],
+        [
+          -1.0380771500853165,
+          -1.5077464796461018
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.44,
+      "min_separation_m": 0.6811143215470101,
+      "final_max_goal_error_m": 0.04911861301786378,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.282826621333735,
+      "max_speed_mps": 0.8737162039003779,
+      "min_cbf_residual": 0.13678218935769096
+    },
+    {
+      "scenario": 2,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          1.8827035242353667,
+          -1.3873185978043863
+        ],
+        [
+          -2.4876453977431825,
+          -0.9945408629990442
+        ]
+      ],
+      "goals": [
+        [
+          -0.48593756437199875,
+          -1.0041789891903539
+        ],
+        [
+          -1.0380771500853165,
+          -1.5077464796461018
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.96,
+      "min_separation_m": 0.7908855554932711,
+      "final_max_goal_error_m": 0.049337015103416176,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.9068531597982936,
+      "max_speed_mps": 0.8737162039003779,
+      "min_cbf_residual": 0.4626486780973174
+    },
+    {
+      "scenario": 2,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          1.8827035242353667,
+          -1.3873185978043863
+        ],
+        [
+          -2.4876453977431825,
+          -0.9945408629990442
+        ]
+      ],
+      "goals": [
+        [
+          -0.48593756437199875,
+          -1.0041789891903539
+        ],
+        [
+          -1.0380771500853165,
+          -1.5077464796461018
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.4,
+      "min_separation_m": 0.6804113327178261,
+      "final_max_goal_error_m": 0.04968415475384286,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.283478919607241,
+      "max_speed_mps": 0.8737162039003779,
+      "min_cbf_residual": 0.13453091297011194
+    },
+    {
+      "scenario": 3,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          0.8648170937227773,
+          0.614476591474096
+        ],
+        [
+          -0.8258244938096082,
+          0.821532698429357
+        ]
+      ],
+      "goals": [
+        [
+          1.9838488120232254,
+          -1.0293329056883833
+        ],
+        [
+          0.40190703391002414,
+          -0.23814813108859578
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.04,
+      "min_separation_m": 1.6968828193785623,
+      "final_max_goal_error_m": 0.04888906349822694,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.5577646825515603,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 4.86381532383908
+    },
+    {
+      "scenario": 3,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          0.8648170937227773,
+          0.614476591474096
+        ],
+        [
+          -0.8258244938096082,
+          0.821532698429357
+        ]
+      ],
+      "goals": [
+        [
+          1.9838488120232254,
+          -1.0293329056883833
+        ],
+        [
+          0.40190703391002414,
+          -0.23814813108859578
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.4,
+      "min_separation_m": 1.7032736741115602,
+      "final_max_goal_error_m": 0.049830809560869285,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.5867838960004668,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 4.953206639405831
+    },
+    {
+      "scenario": 3,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          0.8648170937227773,
+          0.614476591474096
+        ],
+        [
+          -0.8258244938096082,
+          0.821532698429357
+        ]
+      ],
+      "goals": [
+        [
+          1.9838488120232254,
+          -1.0293329056883833
+        ],
+        [
+          0.40190703391002414,
+          -0.23814813108859578
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.04,
+      "min_separation_m": 1.680839227612874,
+      "final_max_goal_error_m": 0.04888906349822694,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.5567411152380717,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 4.779672346802192
+    },
+    {
+      "scenario": 3,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          0.8648170937227773,
+          0.614476591474096
+        ],
+        [
+          -0.8258244938096082,
+          0.821532698429357
+        ]
+      ],
+      "goals": [
+        [
+          1.9838488120232254,
+          -1.0293329056883833
+        ],
+        [
+          0.40190703391002414,
+          -0.23814813108859578
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 4.4,
+      "min_separation_m": 1.6957416147764728,
+      "final_max_goal_error_m": 0.0496773081114547,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.588693155944388,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 4.863846758684982
+    },
+    {
+      "scenario": 4,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -1.5760492008110456,
+          0.5507092697292941
+        ],
+        [
+          -1.0576840681495752,
+          -0.9125066735860579
+        ]
+      ],
+      "goals": [
+        [
+          -2.4286580724931626,
+          2.280986940297555
+        ],
+        [
+          -0.03389778268105714,
+          1.5358685315002234
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.08,
+      "min_separation_m": 1.552321908474972,
+      "final_max_goal_error_m": 0.04931566652545653,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.643892348812658,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.565564616805119
+    },
+    {
+      "scenario": 4,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -1.5760492008110456,
+          0.5507092697292941
+        ],
+        [
+          -1.0576840681495752,
+          -0.9125066735860579
+        ]
+      ],
+      "goals": [
+        [
+          -2.4286580724931626,
+          2.280986940297555
+        ],
+        [
+          -0.03389778268105714,
+          1.5358685315002234
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.12,
+      "min_separation_m": 1.552321908474972,
+      "final_max_goal_error_m": 0.04944729644405648,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.637040132385616,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.565564616805119
+    },
+    {
+      "scenario": 4,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -1.5760492008110456,
+          0.5507092697292941
+        ],
+        [
+          -1.0576840681495752,
+          -0.9125066735860579
+        ]
+      ],
+      "goals": [
+        [
+          -2.4286580724931626,
+          2.280986940297555
+        ],
+        [
+          -0.03389778268105714,
+          1.5358685315002234
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.08,
+      "min_separation_m": 1.552321908474972,
+      "final_max_goal_error_m": 0.04931566652545653,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.643892348812658,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.565564616805119
+    },
+    {
+      "scenario": 4,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -1.5760492008110456,
+          0.5507092697292941
+        ],
+        [
+          -1.0576840681495752,
+          -0.9125066735860579
+        ]
+      ],
+      "goals": [
+        [
+          -2.4286580724931626,
+          2.280986940297555
+        ],
+        [
+          -0.03389778268105714,
+          1.5358685315002234
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.12,
+      "min_separation_m": 1.552321908474972,
+      "final_max_goal_error_m": 0.04944729644405648,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 4.637040132385616,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.565564616805119
+    },
+    {
+      "scenario": 5,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.6514251858343765,
+          2.773600572884125
+        ],
+        [
+          -0.5683997411197408,
+          -1.8626506661031357
+        ]
+      ],
+      "goals": [
+        [
+          0.6485806382863921,
+          2.857428878366248
+        ],
+        [
+          2.346405059956071,
+          2.199282100298981
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.36,
+      "min_separation_m": 1.8456173569542662,
+      "final_max_goal_error_m": 0.049897726503345396,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.381439413988751,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 6.003292721668224
+    },
+    {
+      "scenario": 5,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.6514251858343765,
+          2.773600572884125
+        ],
+        [
+          -0.5683997411197408,
+          -1.8626506661031357
+        ]
+      ],
+      "goals": [
+        [
+          0.6485806382863921,
+          2.857428878366248
+        ],
+        [
+          2.346405059956071,
+          2.199282100298981
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.48,
+      "min_separation_m": 1.842398511227522,
+      "final_max_goal_error_m": 0.048396311949050606,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.38734314453993,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.990644575516079
+    },
+    {
+      "scenario": 5,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.6514251858343765,
+          2.773600572884125
+        ],
+        [
+          -0.5683997411197408,
+          -1.8626506661031357
+        ]
+      ],
+      "goals": [
+        [
+          0.6485806382863921,
+          2.857428878366248
+        ],
+        [
+          2.346405059956071,
+          2.199282100298981
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.36,
+      "min_separation_m": 1.8456173569542662,
+      "final_max_goal_error_m": 0.049897726503345396,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.381439413988751,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 6.003292721668224
+    },
+    {
+      "scenario": 5,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.6514251858343765,
+          2.773600572884125
+        ],
+        [
+          -0.5683997411197408,
+          -1.8626506661031357
+        ]
+      ],
+      "goals": [
+        [
+          0.6485806382863921,
+          2.857428878366248
+        ],
+        [
+          2.346405059956071,
+          2.199282100298981
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.48,
+      "min_separation_m": 1.842398511227522,
+      "final_max_goal_error_m": 0.048396311949050606,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.38734314453993,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 5.990644575516079
+    },
+    {
+      "scenario": 6,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.841811365027001,
+          -2.740647189223476
+        ],
+        [
+          -1.6891925062055142,
+          0.7545988118785816
+        ]
+      ],
+      "goals": [
+        [
+          -0.3387782345055792,
+          0.6122067231166493
+        ],
+        [
+          1.8302399674951897,
+          -0.8202167847388044
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.72,
+      "min_separation_m": 1.4934288282302985,
+      "final_max_goal_error_m": 0.04906965644265453,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.193729520299172,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.137781570342552
+    },
+    {
+      "scenario": 6,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.841811365027001,
+          -2.740647189223476
+        ],
+        [
+          -1.6891925062055142,
+          0.7545988118785816
+        ]
+      ],
+      "goals": [
+        [
+          -0.3387782345055792,
+          0.6122067231166493
+        ],
+        [
+          1.8302399674951897,
+          -0.8202167847388044
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.6000000000000005,
+      "min_separation_m": 1.5255842465306029,
+      "final_max_goal_error_m": 0.04874190511760731,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.172806429183856,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.148616770414926
+    },
+    {
+      "scenario": 6,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.841811365027001,
+          -2.740647189223476
+        ],
+        [
+          -1.6891925062055142,
+          0.7545988118785816
+        ]
+      ],
+      "goals": [
+        [
+          -0.3387782345055792,
+          0.6122067231166493
+        ],
+        [
+          1.8302399674951897,
+          -0.8202167847388044
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.6000000000000005,
+      "min_separation_m": 1.1711824124150054,
+      "final_max_goal_error_m": 0.04874190511760731,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.226998271297752,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.4985138818396886
+    },
+    {
+      "scenario": 6,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.841811365027001,
+          -2.740647189223476
+        ],
+        [
+          -1.6891925062055142,
+          0.7545988118785816
+        ]
+      ],
+      "goals": [
+        [
+          -0.3387782345055792,
+          0.6122067231166493
+        ],
+        [
+          1.8302399674951897,
+          -0.8202167847388044
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.6000000000000005,
+      "min_separation_m": 1.3061880426791255,
+      "final_max_goal_error_m": 0.04874190511760731,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.195470422410832,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 2.3462570006716277
+    },
+    {
+      "scenario": 7,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          1.5857097312765738,
+          1.3823250626219854
+        ],
+        [
+          -0.04984367474340834,
+          0.206617463443316
+        ]
+      ],
+      "goals": [
+        [
+          -1.7991953047665377,
+          1.2712055271251768
+        ],
+        [
+          -0.41896002565606616,
+          -2.5698750403512842
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.4,
+      "min_separation_m": 2.0142798471687184,
+      "final_max_goal_error_m": 0.04913887921798836,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.143951643534615,
+      "max_speed_mps": 0.7976508512570373,
+      "min_cbf_residual": 7.690457274088814
+    },
+    {
+      "scenario": 7,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          1.5857097312765738,
+          1.3823250626219854
+        ],
+        [
+          -0.04984367474340834,
+          0.206617463443316
+        ]
+      ],
+      "goals": [
+        [
+          -1.7991953047665377,
+          1.2712055271251768
+        ],
+        [
+          -0.41896002565606616,
+          -2.5698750403512842
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.4,
+      "min_separation_m": 2.0142798471687184,
+      "final_max_goal_error_m": 0.04913887921798836,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.143951643534615,
+      "max_speed_mps": 0.7976508512570373,
+      "min_cbf_residual": 7.690457274088814
+    },
+    {
+      "scenario": 7,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          1.5857097312765738,
+          1.3823250626219854
+        ],
+        [
+          -0.04984367474340834,
+          0.206617463443316
+        ]
+      ],
+      "goals": [
+        [
+          -1.7991953047665377,
+          1.2712055271251768
+        ],
+        [
+          -0.41896002565606616,
+          -2.5698750403512842
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.4,
+      "min_separation_m": 2.0142798471687184,
+      "final_max_goal_error_m": 0.04913887921798836,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.143951643534615,
+      "max_speed_mps": 0.7976508512570373,
+      "min_cbf_residual": 7.690457274088814
+    },
+    {
+      "scenario": 7,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          1.5857097312765738,
+          1.3823250626219854
+        ],
+        [
+          -0.04984367474340834,
+          0.206617463443316
+        ]
+      ],
+      "goals": [
+        [
+          -1.7991953047665377,
+          1.2712055271251768
+        ],
+        [
+          -0.41896002565606616,
+          -2.5698750403512842
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.4,
+      "min_separation_m": 2.0142798471687184,
+      "final_max_goal_error_m": 0.04913887921798836,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.143951643534615,
+      "max_speed_mps": 0.7976508512570373,
+      "min_cbf_residual": 7.690457274088814
+    },
+    {
+      "scenario": 8,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          0.8233931904186664,
+          2.1804861973803145
+        ],
+        [
+          -2.9816310377744846,
+          -0.7451035723769328
+        ]
+      ],
+      "goals": [
+        [
+          0.23390388490318736,
+          -2.9496475380985316
+        ],
+        [
+          0.2519638290735029,
+          1.6635157871460664
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.88,
+      "min_separation_m": 1.5987514197805313,
+      "final_max_goal_error_m": 0.04854749573543243,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.31074658594192,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.0930044475491933
+    },
+    {
+      "scenario": 8,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          0.8233931904186664,
+          2.1804861973803145
+        ],
+        [
+          -2.9816310377744846,
+          -0.7451035723769328
+        ]
+      ],
+      "goals": [
+        [
+          0.23390388490318736,
+          -2.9496475380985316
+        ],
+        [
+          0.2519638290735029,
+          1.6635157871460664
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.88,
+      "min_separation_m": 1.6057235812082478,
+      "final_max_goal_error_m": 0.048547495798835966,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.32420942771479,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.0958835422945072
+    },
+    {
+      "scenario": 8,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          0.8233931904186664,
+          2.1804861973803145
+        ],
+        [
+          -2.9816310377744846,
+          -0.7451035723769328
+        ]
+      ],
+      "goals": [
+        [
+          0.23390388490318736,
+          -2.9496475380985316
+        ],
+        [
+          0.2519638290735029,
+          1.6635157871460664
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.88,
+      "min_separation_m": 1.5987514197805313,
+      "final_max_goal_error_m": 0.04854749573543243,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.31074658594192,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.0930044475491933
+    },
+    {
+      "scenario": 8,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          0.8233931904186664,
+          2.1804861973803145
+        ],
+        [
+          -2.9816310377744846,
+          -0.7451035723769328
+        ]
+      ],
+      "goals": [
+        [
+          0.23390388490318736,
+          -2.9496475380985316
+        ],
+        [
+          0.2519638290735029,
+          1.6635157871460664
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.88,
+      "min_separation_m": 1.6057235812082478,
+      "final_max_goal_error_m": 0.048547495798835966,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.32420942771479,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.0958835422945072
+    },
+    {
+      "scenario": 9,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          1.5037807538402717,
+          -0.8578438346357793
+        ],
+        [
+          1.5869651765791501,
+          -2.9938423684155495
+        ]
+      ],
+      "goals": [
+        [
+          0.5779571638014194,
+          2.727549798193211
+        ],
+        [
+          -2.236335283656764,
+          1.992049644420006
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.68,
+      "min_separation_m": 2.135998533779768,
+      "final_max_goal_error_m": 0.04918473456134308,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.228056518745685,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 8.389335986494498
+    },
+    {
+      "scenario": 9,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          1.5037807538402717,
+          -0.8578438346357793
+        ],
+        [
+          1.5869651765791501,
+          -2.9938423684155495
+        ]
+      ],
+      "goals": [
+        [
+          0.5779571638014194,
+          2.727549798193211
+        ],
+        [
+          -2.236335283656764,
+          1.992049644420006
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.68,
+      "min_separation_m": 2.135998533779768,
+      "final_max_goal_error_m": 0.04918473456134308,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.228056518745685,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 8.389335986494498
+    },
+    {
+      "scenario": 9,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          1.5037807538402717,
+          -0.8578438346357793
+        ],
+        [
+          1.5869651765791501,
+          -2.9938423684155495
+        ]
+      ],
+      "goals": [
+        [
+          0.5779571638014194,
+          2.727549798193211
+        ],
+        [
+          -2.236335283656764,
+          1.992049644420006
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.68,
+      "min_separation_m": 2.135998533779768,
+      "final_max_goal_error_m": 0.04918473456134308,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.228056518745685,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 8.389335986494498
+    },
+    {
+      "scenario": 9,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          1.5037807538402717,
+          -0.8578438346357793
+        ],
+        [
+          1.5869651765791501,
+          -2.9938423684155495
+        ]
+      ],
+      "goals": [
+        [
+          0.5779571638014194,
+          2.727549798193211
+        ],
+        [
+          -2.236335283656764,
+          1.992049644420006
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.68,
+      "min_separation_m": 2.135998533779768,
+      "final_max_goal_error_m": 0.04918473456134308,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.228056518745685,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 8.389335986494498
+    },
+    {
+      "scenario": 10,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.1464633500228167,
+          -2.9972247618004437
+        ],
+        [
+          -0.6189391445393704,
+          -2.5924649573296277
+        ]
+      ],
+      "goals": [
+        [
+          0.10561572494925442,
+          2.303707651416328
+        ],
+        [
+          -0.09298218338969666,
+          -2.3248184296262426
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.16,
+      "min_separation_m": 1.0758307621368985,
+      "final_max_goal_error_m": 0.048127649388230616,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.600818531107283,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.225552701132735
+    },
+    {
+      "scenario": 10,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.1464633500228167,
+          -2.9972247618004437
+        ],
+        [
+          -0.6189391445393704,
+          -2.5924649573296277
+        ]
+      ],
+      "goals": [
+        [
+          0.10561572494925442,
+          2.303707651416328
+        ],
+        [
+          -0.09298218338969666,
+          -2.3248184296262426
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.120000000000001,
+      "min_separation_m": 1.0838588966964886,
+      "final_max_goal_error_m": 0.04863067873365033,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.598267700216643,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.2637152636859865
+    },
+    {
+      "scenario": 10,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.1464633500228167,
+          -2.9972247618004437
+        ],
+        [
+          -0.6189391445393704,
+          -2.5924649573296277
+        ]
+      ],
+      "goals": [
+        [
+          0.10561572494925442,
+          2.303707651416328
+        ],
+        [
+          -0.09298218338969666,
+          -2.3248184296262426
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.120000000000001,
+      "min_separation_m": 0.9482049875616122,
+      "final_max_goal_error_m": 0.04862807055763855,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.6448311071153645,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.7285919858092117
+    },
+    {
+      "scenario": 10,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.1464633500228167,
+          -2.9972247618004437
+        ],
+        [
+          -0.6189391445393704,
+          -2.5924649573296277
+        ]
+      ],
+      "goals": [
+        [
+          0.10561572494925442,
+          2.303707651416328
+        ],
+        [
+          -0.09298218338969666,
+          -2.3248184296262426
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.120000000000001,
+      "min_separation_m": 0.9617774777582593,
+      "final_max_goal_error_m": 0.04862827244394676,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.639849296017956,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.7793168166388068
+    },
+    {
+      "scenario": 11,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.031828016995548,
+          -2.3588048516303726
+        ],
+        [
+          -2.470793798407289,
+          2.9337244707743952
+        ]
+      ],
+      "goals": [
+        [
+          -0.46373359822138727,
+          2.809995675421386
+        ],
+        [
+          -0.22435525221976071,
+          0.46882913671298865
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 10.64,
+      "min_separation_m": 0.6146417477894639,
+      "final_max_goal_error_m": 0.04848669935658624,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.130707935699395,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 2.9698465908722937e-15
+    },
+    {
+      "scenario": 11,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.031828016995548,
+          -2.3588048516303726
+        ],
+        [
+          -2.470793798407289,
+          2.9337244707743952
+        ]
+      ],
+      "goals": [
+        [
+          -0.46373359822138727,
+          2.809995675421386
+        ],
+        [
+          -0.22435525221976071,
+          0.46882913671298865
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.08,
+      "min_separation_m": 0.7028280661798652,
+      "final_max_goal_error_m": 0.04851899837633456,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.221606713803872,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.11436347817256742
+    },
+    {
+      "scenario": 11,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.031828016995548,
+          -2.3588048516303726
+        ],
+        [
+          -2.470793798407289,
+          2.9337244707743952
+        ]
+      ],
+      "goals": [
+        [
+          -0.46373359822138727,
+          2.809995675421386
+        ],
+        [
+          -0.22435525221976071,
+          0.46882913671298865
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.76,
+      "min_separation_m": 0.6164194227668546,
+      "final_max_goal_error_m": 0.04975690768057064,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.33203013934055,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 4.440892098500626e-16
+    },
+    {
+      "scenario": 11,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.031828016995548,
+          -2.3588048516303726
+        ],
+        [
+          -2.470793798407289,
+          2.9337244707743952
+        ]
+      ],
+      "goals": [
+        [
+          -0.46373359822138727,
+          2.809995675421386
+        ],
+        [
+          -0.22435525221976071,
+          0.46882913671298865
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.92,
+      "min_separation_m": 0.6724501461825946,
+      "final_max_goal_error_m": 0.04951688511117354,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.628944102046653,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.0
+    },
+    {
+      "scenario": 12,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -1.532553563831993,
+          2.2903229786480193
+        ],
+        [
+          -1.00295751929051,
+          -1.2330677862929242
+        ]
+      ],
+      "goals": [
+        [
+          1.7558274698721341,
+          -2.740790680440354
+        ],
+        [
+          2.6201914808339977,
+          -0.05651849821023602
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.88,
+      "min_separation_m": 1.1985995834473802,
+      "final_max_goal_error_m": 0.04886983144025532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.19969217439402,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.885518608602589
+    },
+    {
+      "scenario": 12,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -1.532553563831993,
+          2.2903229786480193
+        ],
+        [
+          -1.00295751929051,
+          -1.2330677862929242
+        ]
+      ],
+      "goals": [
+        [
+          1.7558274698721341,
+          -2.740790680440354
+        ],
+        [
+          2.6201914808339977,
+          -0.05651849821023602
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 12.6,
+      "min_separation_m": 0.7454797996858084,
+      "final_max_goal_error_m": 0.049616104914857524,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 11.226577968244456,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.2812580486290214
+    },
+    {
+      "scenario": 12,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -1.532553563831993,
+          2.2903229786480193
+        ],
+        [
+          -1.00295751929051,
+          -1.2330677862929242
+        ]
+      ],
+      "goals": [
+        [
+          1.7558274698721341,
+          -2.740790680440354
+        ],
+        [
+          2.6201914808339977,
+          -0.05651849821023602
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.88,
+      "min_separation_m": 0.6481360594027235,
+      "final_max_goal_error_m": 0.04827694225848442,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.182522595904334,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.885780586188048e-16
+    },
+    {
+      "scenario": 12,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -1.532553563831993,
+          2.2903229786480193
+        ],
+        [
+          -1.00295751929051,
+          -1.2330677862929242
+        ]
+      ],
+      "goals": [
+        [
+          1.7558274698721341,
+          -2.740790680440354
+        ],
+        [
+          2.6201914808339977,
+          -0.05651849821023602
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 10.36,
+      "min_separation_m": 0.6198555786190513,
+      "final_max_goal_error_m": 0.048108476510484936,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 10.67962714863662,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 8.187894806610529e-16
+    },
+    {
+      "scenario": 13,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          2.36229310660836,
+          1.3068947317038833
+        ],
+        [
+          1.049089656550762,
+          0.4858743021099585
+        ]
+      ],
+      "goals": [
+        [
+          -0.7662696119859238,
+          -1.726619846516763
+        ],
+        [
+          2.902168570627354,
+          -2.5120979038386033
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.8,
+      "min_separation_m": 1.1736152178686414,
+      "final_max_goal_error_m": 0.04957005839563791,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 7.948655121463236,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.2494597382311539
+    },
+    {
+      "scenario": 13,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          2.36229310660836,
+          1.3068947317038833
+        ],
+        [
+          1.049089656550762,
+          0.4858743021099585
+        ]
+      ],
+      "goals": [
+        [
+          -0.7662696119859238,
+          -1.726619846516763
+        ],
+        [
+          2.902168570627354,
+          -2.5120979038386033
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.76,
+      "min_separation_m": 1.029658177313212,
+      "final_max_goal_error_m": 0.048697077512847776,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.32146839350953,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.9984319716233101
+    },
+    {
+      "scenario": 13,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          2.36229310660836,
+          1.3068947317038833
+        ],
+        [
+          1.049089656550762,
+          0.4858743021099585
+        ]
+      ],
+      "goals": [
+        [
+          -0.7662696119859238,
+          -1.726619846516763
+        ],
+        [
+          2.902168570627354,
+          -2.5120979038386033
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.36,
+      "min_separation_m": 0.8532663834702403,
+      "final_max_goal_error_m": 0.04892967503920518,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 7.914890274792986,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.9984014443252818e-15
+    },
+    {
+      "scenario": 13,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          2.36229310660836,
+          1.3068947317038833
+        ],
+        [
+          1.049089656550762,
+          0.4858743021099585
+        ]
+      ],
+      "goals": [
+        [
+          -0.7662696119859238,
+          -1.726619846516763
+        ],
+        [
+          2.902168570627354,
+          -2.5120979038386033
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.0,
+      "min_separation_m": 0.8210204295939256,
+      "final_max_goal_error_m": 0.04947799641970957,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.128261280663288,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.20955897307627014
+    },
+    {
+      "scenario": 14,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          0.7314212913728115,
+          -0.676203964641426
+        ],
+        [
+          2.1122130078710244,
+          0.7346671711893125
+        ]
+      ],
+      "goals": [
+        [
+          1.866557840796889,
+          0.04276784508008591
+        ],
+        [
+          2.596092976794784,
+          -0.2166588007618797
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 3.7600000000000002,
+      "min_separation_m": 0.7933755104472292,
+      "final_max_goal_error_m": 0.04896937348075054,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 2.345725982774737,
+      "max_speed_mps": 0.8959439967765399,
+      "min_cbf_residual": 0.5071157067298542
+    },
+    {
+      "scenario": 14,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          0.7314212913728115,
+          -0.676203964641426
+        ],
+        [
+          2.1122130078710244,
+          0.7346671711893125
+        ]
+      ],
+      "goals": [
+        [
+          1.866557840796889,
+          0.04276784508008591
+        ],
+        [
+          2.596092976794784,
+          -0.2166588007618797
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.8,
+      "min_separation_m": 0.7588930123883346,
+      "final_max_goal_error_m": 0.04816401592158263,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.065024314707787,
+      "max_speed_mps": 0.8958897270169353,
+      "min_cbf_residual": 0.41097985555740324
+    },
+    {
+      "scenario": 14,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          0.7314212913728115,
+          -0.676203964641426
+        ],
+        [
+          2.1122130078710244,
+          0.7346671711893125
+        ]
+      ],
+      "goals": [
+        [
+          1.866557840796889,
+          0.04276784508008591
+        ],
+        [
+          2.596092976794784,
+          -0.2166588007618797
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 3.36,
+      "min_separation_m": 0.7832638053946199,
+      "final_max_goal_error_m": 0.04849757412094579,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 2.333198791371057,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.4895986149368636
+    },
+    {
+      "scenario": 14,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          0.7314212913728115,
+          -0.676203964641426
+        ],
+        [
+          2.1122130078710244,
+          0.7346671711893125
+        ]
+      ],
+      "goals": [
+        [
+          1.866557840796889,
+          0.04276784508008591
+        ],
+        [
+          2.596092976794784,
+          -0.2166588007618797
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.48,
+      "min_separation_m": 0.7568028935114202,
+      "final_max_goal_error_m": 0.04931703318775322,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 3.034971236202077,
+      "max_speed_mps": 0.9923911628237524,
+      "min_cbf_residual": 0.4058703590978855
+    },
+    {
+      "scenario": 15,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -0.18199676421830535,
+          0.7444410570653535
+        ],
+        [
+          -1.9567504019162996,
+          1.4616128723838424
+        ]
+      ],
+      "goals": [
+        [
+          1.2823947664996223,
+          -2.415995278186893
+        ],
+        [
+          0.4296870411422451,
+          1.2934229371407482
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.08,
+      "min_separation_m": 1.9141802128351135,
+      "final_max_goal_error_m": 0.04944960319859532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.968952593483588,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 7.381163719840923
+    },
+    {
+      "scenario": 15,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -0.18199676421830535,
+          0.7444410570653535
+        ],
+        [
+          -1.9567504019162996,
+          1.4616128723838424
+        ]
+      ],
+      "goals": [
+        [
+          1.2823947664996223,
+          -2.415995278186893
+        ],
+        [
+          0.4296870411422451,
+          1.2934229371407482
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.08,
+      "min_separation_m": 1.9141802128351135,
+      "final_max_goal_error_m": 0.04944960319859532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.968188572474099,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 7.446299886775407
+    },
+    {
+      "scenario": 15,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -0.18199676421830535,
+          0.7444410570653535
+        ],
+        [
+          -1.9567504019162996,
+          1.4616128723838424
+        ]
+      ],
+      "goals": [
+        [
+          1.2823947664996223,
+          -2.415995278186893
+        ],
+        [
+          0.4296870411422451,
+          1.2934229371407482
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.08,
+      "min_separation_m": 1.9141802128351135,
+      "final_max_goal_error_m": 0.04944960319859532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.968952593483588,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 7.381163719840923
+    },
+    {
+      "scenario": 15,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -0.18199676421830535,
+          0.7444410570653535
+        ],
+        [
+          -1.9567504019162996,
+          1.4616128723838424
+        ]
+      ],
+      "goals": [
+        [
+          1.2823947664996223,
+          -2.415995278186893
+        ],
+        [
+          0.4296870411422451,
+          1.2934229371407482
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.08,
+      "min_separation_m": 1.9141802128351135,
+      "final_max_goal_error_m": 0.04944960319859532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.968188572474099,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 7.446299886775407
+    },
+    {
+      "scenario": 16,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.334257989569852,
+          1.057886198664483
+        ],
+        [
+          -2.721054502596191,
+          1.808520141042811
+        ]
+      ],
+      "goals": [
+        [
+          0.4862882364179866,
+          -1.4703717070448825
+        ],
+        [
+          -1.0079662450319802,
+          -2.5864979952761438
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 8.96,
+      "min_separation_m": 0.844430493255523,
+      "final_max_goal_error_m": 0.04958254090908652,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.874140354209445,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.9616324342292535
+    },
+    {
+      "scenario": 16,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.334257989569852,
+          1.057886198664483
+        ],
+        [
+          -2.721054502596191,
+          1.808520141042811
+        ]
+      ],
+      "goals": [
+        [
+          0.4862882364179866,
+          -1.4703717070448825
+        ],
+        [
+          -1.0079662450319802,
+          -2.5864979952761438
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.44,
+      "min_separation_m": 0.844430493255523,
+      "final_max_goal_error_m": 0.048199960828762274,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.18172346305356,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.961632434229258
+    },
+    {
+      "scenario": 16,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.334257989569852,
+          1.057886198664483
+        ],
+        [
+          -2.721054502596191,
+          1.808520141042811
+        ]
+      ],
+      "goals": [
+        [
+          0.4862882364179866,
+          -1.4703717070448825
+        ],
+        [
+          -1.0079662450319802,
+          -2.5864979952761438
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 7.84,
+      "min_separation_m": 0.844430493255523,
+      "final_max_goal_error_m": 0.04857738999160685,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.721785392678346,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.7061257158795315
+    },
+    {
+      "scenario": 16,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.334257989569852,
+          1.057886198664483
+        ],
+        [
+          -2.721054502596191,
+          1.808520141042811
+        ]
+      ],
+      "goals": [
+        [
+          0.4862882364179866,
+          -1.4703717070448825
+        ],
+        [
+          -1.0079662450319802,
+          -2.5864979952761438
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.08,
+      "min_separation_m": 0.844430493255523,
+      "final_max_goal_error_m": 0.048780776347948675,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 9.037132439118992,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.1803292541294803
+    },
+    {
+      "scenario": 17,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          0.04260761032741289,
+          1.1947028650550529
+        ],
+        [
+          0.22553397164917488,
+          -0.4434337495912122
+        ]
+      ],
+      "goals": [
+        [
+          1.0268857936599172,
+          -2.2067951937082366
+        ],
+        [
+          -1.3050959828958828,
+          -0.13856955399169424
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.44,
+      "min_separation_m": 1.270317021162555,
+      "final_max_goal_error_m": 0.04960426043494931,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.1977676038998855,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.0994382782018475
+    },
+    {
+      "scenario": 17,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          0.04260761032741289,
+          1.1947028650550529
+        ],
+        [
+          0.22553397164917488,
+          -0.4434337495912122
+        ]
+      ],
+      "goals": [
+        [
+          1.0268857936599172,
+          -2.2067951937082366
+        ],
+        [
+          -1.3050959828958828,
+          -0.13856955399169424
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.44,
+      "min_separation_m": 1.2791110158758134,
+      "final_max_goal_error_m": 0.04958844066980306,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.225157140781128,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.1173892030142039
+    },
+    {
+      "scenario": 17,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          0.04260761032741289,
+          1.1947028650550529
+        ],
+        [
+          0.22553397164917488,
+          -0.4434337495912122
+        ]
+      ],
+      "goals": [
+        [
+          1.0268857936599172,
+          -2.2067951937082366
+        ],
+        [
+          -1.3050959828958828,
+          -0.13856955399169424
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.44,
+      "min_separation_m": 1.2557951212562513,
+      "final_max_goal_error_m": 0.04833796503066463,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.193700091545733,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.8649583430440413
+    },
+    {
+      "scenario": 17,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          0.04260761032741289,
+          1.1947028650550529
+        ],
+        [
+          0.22553397164917488,
+          -0.4434337495912122
+        ]
+      ],
+      "goals": [
+        [
+          1.0268857936599172,
+          -2.2067951937082366
+        ],
+        [
+          -1.3050959828958828,
+          -0.13856955399169424
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.44,
+      "min_separation_m": 1.2657709502039265,
+      "final_max_goal_error_m": 0.04848517953568035,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.221149335571914,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.9046898928169087
+    },
+    {
+      "scenario": 18,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -2.7182107264341804,
+          -0.522975318796095
+        ],
+        [
+          -0.715520253941673,
+          -0.2572722176639173
+        ]
+      ],
+      "goals": [
+        [
+          2.9481138748475493,
+          2.801067937395496
+        ],
+        [
+          0.3367748588121626,
+          0.36604510579051697
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.64,
+      "min_separation_m": 1.5069221507067765,
+      "final_max_goal_error_m": 0.04849028329504174,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.090556617604333,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.4730699343235534
+    },
+    {
+      "scenario": 18,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -2.7182107264341804,
+          -0.522975318796095
+        ],
+        [
+          -0.715520253941673,
+          -0.2572722176639173
+        ]
+      ],
+      "goals": [
+        [
+          2.9481138748475493,
+          2.801067937395496
+        ],
+        [
+          0.3367748588121626,
+          0.36604510579051697
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.64,
+      "min_separation_m": 1.5069628188677695,
+      "final_max_goal_error_m": 0.04849422081680552,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.090569604691185,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.47330682273042
+    },
+    {
+      "scenario": 18,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -2.7182107264341804,
+          -0.522975318796095
+        ],
+        [
+          -0.715520253941673,
+          -0.2572722176639173
+        ]
+      ],
+      "goals": [
+        [
+          2.9481138748475493,
+          2.801067937395496
+        ],
+        [
+          0.3367748588121626,
+          0.36604510579051697
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.64,
+      "min_separation_m": 1.5069221507067765,
+      "final_max_goal_error_m": 0.04849028329504174,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.090556617604333,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.4730699343235534
+    },
+    {
+      "scenario": 18,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -2.7182107264341804,
+          -0.522975318796095
+        ],
+        [
+          -0.715520253941673,
+          -0.2572722176639173
+        ]
+      ],
+      "goals": [
+        [
+          2.9481138748475493,
+          2.801067937395496
+        ],
+        [
+          0.3367748588121626,
+          0.36604510579051697
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 9.64,
+      "min_separation_m": 1.5069628188677695,
+      "final_max_goal_error_m": 0.04849422081680552,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 8.090569604691185,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 3.47330682273042
+    },
+    {
+      "scenario": 19,
+      "centralized": false,
+      "circulation": false,
+      "starts": [
+        [
+          -1.40987214918558,
+          2.8742576205026604
+        ],
+        [
+          2.1033991193343713,
+          0.7119535115134665
+        ]
+      ],
+      "goals": [
+        [
+          1.2027463266395593,
+          1.164094888046713
+        ],
+        [
+          0.18861358735259026,
+          1.8782293986290435
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.88,
+      "min_separation_m": 0.6642753818506257,
+      "final_max_goal_error_m": 0.04865350375801323,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.5489068968127055,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 2.9976021664879227e-15
+    },
+    {
+      "scenario": 19,
+      "centralized": false,
+      "circulation": true,
+      "starts": [
+        [
+          -1.40987214918558,
+          2.8742576205026604
+        ],
+        [
+          2.1033991193343713,
+          0.7119535115134665
+        ]
+      ],
+      "goals": [
+        [
+          1.2027463266395593,
+          1.164094888046713
+        ],
+        [
+          0.18861358735259026,
+          1.8782293986290435
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 6.04,
+      "min_separation_m": 0.6770050602627613,
+      "final_max_goal_error_m": 0.049914014995419975,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.402858088910025,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.4988010832439613e-15
+    },
+    {
+      "scenario": 19,
+      "centralized": true,
+      "circulation": false,
+      "starts": [
+        [
+          -1.40987214918558,
+          2.8742576205026604
+        ],
+        [
+          2.1033991193343713,
+          0.7119535115134665
+        ]
+      ],
+      "goals": [
+        [
+          1.2027463266395593,
+          1.164094888046713
+        ],
+        [
+          0.18861358735259026,
+          1.8782293986290435
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.8,
+      "min_separation_m": 0.6653759224793304,
+      "final_max_goal_error_m": 0.04931652858311663,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 5.54153763816514,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 0.0
+    },
+    {
+      "scenario": 19,
+      "centralized": true,
+      "circulation": true,
+      "starts": [
+        [
+          -1.40987214918558,
+          2.8742576205026604
+        ],
+        [
+          2.1033991193343713,
+          0.7119535115134665
+        ]
+      ],
+      "goals": [
+        [
+          1.2027463266395593,
+          1.164094888046713
+        ],
+        [
+          0.18861358735259026,
+          1.8782293986290435
+        ]
+      ],
+      "completed": true,
+      "elapsed_s": 5.96,
+      "min_separation_m": 0.6713387326324534,
+      "final_max_goal_error_m": 0.04905368358806532,
+      "longest_stall_s": 0.0,
+      "stalled_3s": false,
+      "total_path_m": 6.25877599923292,
+      "max_speed_mps": 0.9999999999999999,
+      "min_cbf_residual": 1.1102230246251565e-16
+    }
+  ]
+}
