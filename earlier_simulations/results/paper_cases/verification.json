@@ -1,0 +1,80 @@
+{
+  "original_controller_max_difference": 0.0,
+  "equilibrium_side": 0.5596486150184862,
+  "equilibrium_velocity_max_abs": 1.4432899320127035e-15,
+  "goal_separation": 1.1886236953588125,
+  "perturbations": [
+    {
+      "y_offset": -0.0001,
+      "dt": 0.02,
+      "completed": true,
+      "elapsed_s": 6.0200000000000005,
+      "min_separation_m": 0.6000000158186266,
+      "final_max_goal_error_m": 0.04999524510400133,
+      "longest_stall_s": 0.72,
+      "max_speed_mps": 0.5104227196704588,
+      "min_cbf_residual": 4.506215279392878e-18,
+      "total_path_m": 1.4502082756385044
+    },
+    {
+      "y_offset": -0.0001,
+      "dt": 0.01,
+      "completed": true,
+      "elapsed_s": 6.0,
+      "min_separation_m": 0.6000000130565891,
+      "final_max_goal_error_m": 0.04960115139208494,
+      "longest_stall_s": 0.7000000000000001,
+      "max_speed_mps": 0.5106538508260563,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 1.4505419837371007
+    },
+    {
+      "y_offset": 0,
+      "dt": 0.02,
+      "completed": true,
+      "elapsed_s": 19.080000000000002,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04957216364481564,
+      "longest_stall_s": 13.76,
+      "max_speed_mps": 0.5061033011219438,
+      "min_cbf_residual": 2.2204460545048682e-17,
+      "total_path_m": 1.4512541221787383
+    },
+    {
+      "y_offset": 0,
+      "dt": 0.01,
+      "completed": true,
+      "elapsed_s": 19.32,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04973430346760492,
+      "longest_stall_s": 14.02,
+      "max_speed_mps": 0.5120246782806934,
+      "min_cbf_residual": 1.111246816620511e-17,
+      "total_path_m": 1.45047570705298
+    },
+    {
+      "y_offset": 0.0001,
+      "dt": 0.02,
+      "completed": true,
+      "elapsed_s": 6.92,
+      "min_separation_m": 0.6000000158216819,
+      "final_max_goal_error_m": 0.04938930742622066,
+      "longest_stall_s": 0.72,
+      "max_speed_mps": 0.9950011091609505,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 2.9560326413396933
+    },
+    {
+      "y_offset": 0.0001,
+      "dt": 0.01,
+      "completed": true,
+      "elapsed_s": 6.88,
+      "min_separation_m": 0.6000000130599139,
+      "final_max_goal_error_m": 0.049523958703585946,
+      "longest_stall_s": 0.7000000000000001,
+      "max_speed_mps": 0.9908720040565296,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 2.939549352853242
+    }
+  ]
+}

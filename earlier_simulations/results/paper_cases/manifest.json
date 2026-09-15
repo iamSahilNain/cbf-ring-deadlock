@@ -1,0 +1,376 @@
+[
+  {
+    "file": "paper_symmetric_centralized_baseline.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "centralized_baseline",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000039,
+      "final_max_goal_error_m": 3.300000000000002,
+      "longest_stall_s": 54.6,
+      "max_speed_mps": 0.7071067811865475,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 3.399999999999996
+    }
+  },
+  {
+    "file": "paper_symmetric_centralized_circulation.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "centralized_circulation",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 8.82,
+      "min_separation_m": 0.7061723928437614,
+      "final_max_goal_error_m": 0.0493790613572902,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8093786229283907,
+      "min_cbf_residual": 2.220446049250313e-16,
+      "total_path_m": 10.183499054621308
+    }
+  },
+  {
+    "file": "paper_symmetric_decentralized_baseline.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000039,
+      "final_max_goal_error_m": 3.300000000000002,
+      "longest_stall_s": 54.6,
+      "max_speed_mps": 0.7071067811865475,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 3.399999999999996
+    }
+  },
+  {
+    "file": "paper_symmetric_decentralized_circulation.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 8.82,
+      "min_separation_m": 0.7061723928437614,
+      "final_max_goal_error_m": 0.0493790613572902,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8093786229283907,
+      "min_cbf_residual": 2.220446049250313e-16,
+      "total_path_m": 10.183499054621308
+    }
+  },
+  {
+    "file": "paper_symmetric_paper_decentralized_baseline.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "paper_decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.600000000000002,
+      "final_max_goal_error_m": 3.300000000000001,
+      "longest_stall_s": 55.32,
+      "max_speed_mps": 1.955,
+      "min_cbf_residual": -7.105427357601002e-15,
+      "total_path_m": 3.3999999999999977
+    }
+  },
+  {
+    "file": "paper_symmetric_paper_decentralized_circulation.npz",
+    "scenario": "paper_symmetric",
+    "title": "Paper \u00b7 Collinear overshoot",
+    "controller": "paper_decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 5.62,
+      "min_separation_m": 1.078987142236865,
+      "final_max_goal_error_m": 0.04913822053603161,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 3.1601929418540635,
+      "min_cbf_residual": -7.105427357601002e-15,
+      "total_path_m": 10.383824179882502
+    }
+  },
+  {
+    "file": "paper_heterogeneous_centralized_baseline.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "centralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000014,
+      "final_max_goal_error_m": 4.955972014040454,
+      "longest_stall_s": 23.98,
+      "max_speed_mps": 0.7071067811865475,
+      "min_cbf_residual": 0.0,
+      "total_path_m": 4.038853844090089
+    }
+  },
+  {
+    "file": "paper_heterogeneous_centralized_circulation.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "centralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.160000000000004,
+      "min_separation_m": 0.7720622078238436,
+      "final_max_goal_error_m": 0.049974070648851183,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.817794514590749,
+      "min_cbf_residual": 8.881784197001252e-16,
+      "total_path_m": 11.193110004415454
+    }
+  },
+  {
+    "file": "paper_heterogeneous_decentralized_baseline.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000042,
+      "final_max_goal_error_m": 4.546697050670035,
+      "longest_stall_s": 53.980000000000004,
+      "max_speed_mps": 0.7071067811865475,
+      "min_cbf_residual": 2.5478751053409354e-16,
+      "total_path_m": 3.3999999999999964
+    }
+  },
+  {
+    "file": "paper_heterogeneous_decentralized_circulation.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.160000000000004,
+      "min_separation_m": 0.7773798975121528,
+      "final_max_goal_error_m": 0.04994085722681721,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8179157094011286,
+      "min_cbf_residual": 0.021155818931608117,
+      "total_path_m": 11.197563096298929
+    }
+  },
+  {
+    "file": "paper_heterogeneous_paper_decentralized_baseline.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "paper_decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000001,
+      "final_max_goal_error_m": 4.549415786641784,
+      "longest_stall_s": 53.980000000000004,
+      "max_speed_mps": 0.75,
+      "min_cbf_residual": -2.220446049250313e-16,
+      "total_path_m": 3.4
+    }
+  },
+  {
+    "file": "paper_heterogeneous_paper_decentralized_circulation.npz",
+    "scenario": "paper_heterogeneous",
+    "title": "Paper \u00b7 Unequal gains and goals",
+    "controller": "paper_decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.18,
+      "min_separation_m": 0.7820213944021197,
+      "final_max_goal_error_m": 0.04992192386658344,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8312336570133242,
+      "min_cbf_residual": 0.022764659524920905,
+      "total_path_m": 11.200326422590873
+    }
+  },
+  {
+    "file": "paper_rotated_centralized_baseline.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "centralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000025,
+      "final_max_goal_error_m": 0.5293703341537028,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.75,
+      "min_cbf_residual": -5.551115123125783e-17,
+      "total_path_m": 11.394121627587271
+    }
+  },
+  {
+    "file": "paper_rotated_centralized_circulation.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "centralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.2,
+      "min_separation_m": 0.7725404120394374,
+      "final_max_goal_error_m": 0.04992602771644183,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8443726085741822,
+      "min_cbf_residual": 4.440892098500626e-16,
+      "total_path_m": 11.19335434036199
+    }
+  },
+  {
+    "file": "paper_rotated_decentralized_baseline.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000034,
+      "final_max_goal_error_m": 0.455330268654075,
+      "longest_stall_s": 20.56,
+      "max_speed_mps": 0.75,
+      "min_cbf_residual": 2.2967975991158157e-16,
+      "total_path_m": 10.877042604628244
+    }
+  },
+  {
+    "file": "paper_rotated_decentralized_circulation.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.160000000000004,
+      "min_separation_m": 0.7795924766433215,
+      "final_max_goal_error_m": 0.04998190372988943,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8294103055105044,
+      "min_cbf_residual": 0.017659323498274704,
+      "total_path_m": 11.197988437739765
+    }
+  },
+  {
+    "file": "paper_rotated_paper_decentralized_baseline.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "paper_decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": false,
+      "elapsed_s": 60.0,
+      "min_separation_m": 0.6000000000000015,
+      "final_max_goal_error_m": 0.4466946841818348,
+      "longest_stall_s": 20.32,
+      "max_speed_mps": 0.75,
+      "min_cbf_residual": -2.8924311676250397e-16,
+      "total_path_m": 10.887121157339656
+    }
+  },
+  {
+    "file": "paper_rotated_paper_decentralized_circulation.npz",
+    "scenario": "paper_rotated",
+    "title": "Paper \u00b7 Rotated collinear encounter",
+    "controller": "paper_decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [0.15, 0.08]. Collinear starts; initial separation 4 m; both goal travel distances strictly exceed 4 m. Paper variants use unclipped proportional input and no speed bounds; other variants retain our square speed bounds.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 59.18,
+      "min_separation_m": 0.7820213944021196,
+      "final_max_goal_error_m": 0.049921923866577074,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.8312336570133242,
+      "min_cbf_residual": 0.02276465952492046,
+      "total_path_m": 11.200326422590877
+    }
+  },
+  {
+    "file": "circulation_equilibrium_centralized_baseline.npz",
+    "scenario": "circulation_equilibrium",
+    "title": "Circulation \u00b7 Constructed equilibrium",
+    "controller": "centralized_baseline",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Analytically constructed equilibrium of our circulation controller. Floating-point perturbations can cause eventual escape; a completed numerical trace does not remove the exact equilibrium.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 2.7800000000000002,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04921958411105863,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.5943168614039498,
+      "min_cbf_residual": 1.887379141862766e-15,
+      "total_path_m": 1.4544718782244719
+    }
+  },
+  {
+    "file": "circulation_equilibrium_centralized_circulation.npz",
+    "scenario": "circulation_equilibrium",
+    "title": "Circulation \u00b7 Constructed equilibrium",
+    "controller": "centralized_circulation",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Analytically constructed equilibrium of our circulation controller. Floating-point perturbations can cause eventual escape; a completed numerical trace does not remove the exact equilibrium.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 19.080000000000002,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04957216364481564,
+      "longest_stall_s": 13.76,
+      "max_speed_mps": 0.5061033011219438,
+      "min_cbf_residual": 2.2204460545048682e-17,
+      "total_path_m": 1.4512541221787383
+    }
+  },
+  {
+    "file": "circulation_equilibrium_decentralized_baseline.npz",
+    "scenario": "circulation_equilibrium",
+    "title": "Circulation \u00b7 Constructed equilibrium",
+    "controller": "decentralized_baseline",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Analytically constructed equilibrium of our circulation controller. Floating-point perturbations can cause eventual escape; a completed numerical trace does not remove the exact equilibrium.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 2.7800000000000002,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04921958411105863,
+      "longest_stall_s": 0.0,
+      "max_speed_mps": 0.5943168614039498,
+      "min_cbf_residual": 1.887379141862766e-15,
+      "total_path_m": 1.4544718782244719
+    }
+  },
+  {
+    "file": "circulation_equilibrium_decentralized_circulation.npz",
+    "scenario": "circulation_equilibrium",
+    "title": "Circulation \u00b7 Constructed equilibrium",
+    "controller": "decentralized_circulation",
+    "note": "60 s maximum horizon; goal gains [1, 1]. Analytically constructed equilibrium of our circulation controller. Floating-point perturbations can cause eventual escape; a completed numerical trace does not remove the exact equilibrium.",
+    "metrics": {
+      "completed": true,
+      "elapsed_s": 19.080000000000002,
+      "min_separation_m": 0.6,
+      "final_max_goal_error_m": 0.04957216364481564,
+      "longest_stall_s": 13.76,
+      "max_speed_mps": 0.5061033011219438,
+      "min_cbf_residual": 2.2204460545048682e-17,
+      "total_path_m": 1.4512541221787383
+    }
+  }
+]
