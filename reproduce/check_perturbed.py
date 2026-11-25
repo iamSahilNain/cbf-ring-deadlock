@@ -1,6 +1,6 @@
 """Nearly symmetric rings, separate filters, gain 1.2: does a tiny perturbation free them?
 
-Report: Section 7.1 (text after Table 7.1). Run: python3 check_perturbed.py > check_perturbed.log
+Report: Section 7.1 (text after Table 7.1). Run: python3 check_perturbed.py > results/check_perturbed.log
 """
 import sys, numpy as np
 from multiprocessing import Pool

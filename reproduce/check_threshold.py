@@ -4,7 +4,7 @@ E_N(k) = { phi in [-pi, 0] : at r = r*, robot 0's reference r satisfies r_r < 0 
            |r_t| <= cot(pi/N) * (-r_r) }  (normal cone of the two-contact wedge, N >= 3).
 k0(N): closed form at phi = 0.  k*(N) = inf{k : E_N(k) empty}, by bisection on a fine phi grid.
 Then simulate the decentralized symmetric swap just above k* and just below k0.
-Run: python3 check_threshold.py   (writes threshold.json)
+Run: python3 check_threshold.py   (writes results/threshold.json)
 """
 import json
 from pathlib import Path
@@ -74,7 +74,7 @@ def main():
                              final_phi=float(np.unwrap(np.arctan2(traj[:, 0, 1], traj[:, 0, 0]))[-1]),
                              final_radius=float(np.linalg.norm(traj[-1, 0]))))
             print(sims[-1], flush=True)
-    (Path(__file__).parent/'threshold.json').write_text(json.dumps(dict(thresholds=rows, sims=sims), indent=2))
+    (Path(__file__).parent/'results'/'threshold.json').write_text(json.dumps(dict(thresholds=rows, sims=sims), indent=2))
 
 
 if __name__ == '__main__':

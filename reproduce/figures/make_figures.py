@@ -1,7 +1,7 @@
 """Make every figure in the report from the saved results and the proof-folder model.
 
 Run from anywhere:  python3 make_figures.py
-Reads  ../{threshold.json, traj_threshold.json, stall.json}
+Reads  ../results/{threshold.json, traj_threshold.json, stall.json}
 Writes fig_*.pdf next to this file.
 """
 import json
@@ -103,8 +103,8 @@ def rings():
 
 # ---------------------------------------------------------------- threshold k0(N)
 def threshold():
-    rows = json.loads((PROOF/'threshold.json').read_text())['thresholds']
-    traj = json.loads((PROOF/'traj_threshold.json').read_text())
+    rows = json.loads((PROOF/'results'/'threshold.json').read_text())['thresholds']
+    traj = json.loads((PROOF/'results'/'traj_threshold.json').read_text())
     N = np.array([r['N'] for r in rows]); k0 = np.array([r['k0'] for r in rows])
     fig, ax = plt.subplots(figsize=(4.4, 2.6))
     ax.plot(N, k0, '-o', color=BLUE, ms=5, label='formula $k_0(N)$ (equals bisection to 7 digits)')
@@ -120,7 +120,7 @@ def threshold():
 
 # ---------------------------------------------------------------- stall time
 def stall():
-    rows = json.loads((PROOF/'stall.json').read_text())
+    rows = json.loads((PROOF/'results'/'stall.json').read_text())
     fig, ax = plt.subplots(figsize=(4.4, 2.6))
     for r in rows:
         eps = np.array([x[0] for x in r['runs']]); t = np.array([x[1] for x in r['runs']])

@@ -1,8 +1,9 @@
 """Gain at which a run from the exact ring first gets stuck (separate filters), by bisection.
 
-Report: second row of Table 7.2. Run: python3 traj_threshold.py  (writes traj_threshold.json)
+Report: second row of Table 7.2. Run: python3 traj_threshold.py  (writes results/traj_threshold.json)
 """
 import json
+from pathlib import Path
 import numpy as np
 import check_lemmas as cl
 
@@ -21,4 +22,4 @@ for N, lo, hi in ((7, 1.2, 1.394), (8, 1.2, 1.751)):
         lo, hi = (mid, hi) if not ok(mid) else (lo, mid)
     out[N] = dict(trajectory_threshold_between=[lo, hi])
     print(N, out[N], flush=True)
-json.dump(out, open('traj_threshold.json', 'w'), indent=2)
+(Path(__file__).parent/'results'/'traj_threshold.json').write_text(json.dumps(out, indent=2))

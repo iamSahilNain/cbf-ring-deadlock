@@ -4,7 +4,7 @@ beta_ij = k * gamma(d) * [ (eh.e)_+  +  (eh x e)_+ * min(1, (eh.e)_+ / delta) ] 
 Every active nudge has eh.e > 0, so Lemma 1 (no free-space deadlock) applies unchanged.
 Theorem 6 claim: contact deadlock phases E_N = empty whenever k*gamma(D)*min(1, sin(pi/N)/delta) > 1.
 Checks: contact sweep, Lemma-1 style free-space search, rings N=3..20, perturbed rings, parked, head-on.
-Run: python3 check_chiral2.py  (writes chiral2.json)
+Run: python3 check_chiral2.py  (writes results/chiral2.json)
 """
 import json
 from pathlib import Path
@@ -90,7 +90,7 @@ def main():
     res['headon'].append(dict(completed=done(traj, -s), time_s=round((len(traj)-1)*cl.DT, 2)))
     print('headon', res['headon'][-1], flush=True)
     cl.reference = orig
-    (Path(__file__).parent/'chiral2.json').write_text(json.dumps(res, indent=2))
+    (Path(__file__).parent/'results'/'chiral2.json').write_text(json.dumps(res, indent=2))
 
 
 if __name__ == '__main__':

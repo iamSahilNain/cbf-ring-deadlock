@@ -12,7 +12,7 @@ Checks:
   D  baseline on the same family: phi stays 0, converges to the N-gon deadlock
   E  robustness: random 0.05 m perturbations of the symmetric starts
   F  decentralized wedge margin along the symmetric circulation trajectory
-Run: python3 check_lemmas.py   (writes results.json next to this file)
+Run: python3 check_lemmas.py   (writes results/results.json)
 """
 from itertools import combinations
 from pathlib import Path
@@ -23,7 +23,7 @@ from scipy.optimize import minimize, LinearConstraint
 D, ALPHA, DT, TOL = 0.6, 2.0, 0.02, 0.05
 KC = 1.2  # circulation gain; check_threshold.py varies it
 J = np.array([[0., -1.], [1., 0.]])
-OUT = Path(__file__).parent
+OUT = Path(__file__).parent / 'results'
 
 
 def sat(v, vmax=1.0):

@@ -6,7 +6,7 @@ Law: beta_ij = k * gamma(d_ij) * [ (e_hat_i . e_ij)_+  +  (e_hat_i x e_ij)_+ ] *
 Claim to test (Theorem 6 = report claim C5): for k > 1/gamma(D) the decentralized
 ring has no contact deadlock phase for ANY N.
 Risk to test: backing off from a side neighbour may create a new stall when passing a parked robot.
-Run: python3 check_chiral.py   (writes chiral.json)
+Run: python3 check_chiral.py   (writes results/chiral.json)
 """
 import json
 from pathlib import Path
@@ -92,7 +92,7 @@ def main():
             res['headon'].append(dict(law=law_name, central=central, completed=done(traj, g), time_s=round((len(traj)-1)*cl.DT, 2)))
             print('headon', res['headon'][-1], flush=True)
     cl.reference = original_reference
-    (Path(__file__).parent/'chiral.json').write_text(json.dumps(res, indent=2))
+    (Path(__file__).parent/'results'/'chiral.json').write_text(json.dumps(res, indent=2))
 
 
 if __name__ == '__main__':

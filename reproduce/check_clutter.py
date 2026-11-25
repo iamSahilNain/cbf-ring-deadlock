@@ -12,7 +12,7 @@ Scenarios (20 seeds each):
   D  jittered antipodal ring, N in {8, 12}
 Metrics: completion, time, stall time (speed < 0.02 m/s while > 0.1 m from goal, summed
 over movers), min separation (sampled plus exact segment check), max speed.
-Run: python3 check_clutter.py   (writes clutter.json; uses all cores)
+Run: python3 check_clutter.py   (writes results/clutter.json; uses all cores)
 """
 import json, os, sys, time
 from itertools import combinations
@@ -206,7 +206,7 @@ def main():
             res.append(r)
             if (i+1) % 50 == 0:
                 print(f'{i+1}/{len(jobs)} done, {time.time()-t0:.0f}s', flush=True)
-    (Path(__file__).parent/('clutter_contact.json' if LAWS[0][0] == 'chiralc' else 'clutter.json')).write_text(json.dumps(res, indent=1))
+    (Path(__file__).parent/'results'/('clutter_contact.json' if LAWS[0][0] == 'chiralc' else 'clutter.json')).write_text(json.dumps(res, indent=1))
     # summary table
     import collections
     agg = collections.defaultdict(list)

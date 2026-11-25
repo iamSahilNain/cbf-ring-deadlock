@@ -25,4 +25,4 @@ for N in (3, 5):
         rows.append(dict(N=N, circulation=circulation, predicted_slope=None if circulation else 1/lam,
                          fitted_slope=slope, runs=times))
         print(rows[-1], flush=True)
-(Path(__file__).parent / 'stall.json').write_text(json.dumps(rows, indent=2))
+(Path(__file__).parent / 'results' / 'stall.json').write_text(json.dumps(rows, indent=2))
