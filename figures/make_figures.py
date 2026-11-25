@@ -135,7 +135,7 @@ def stall():
         ax.text(*xy, f"N = {r['N']}, no circulation\nslope {r['fitted_slope']:.3f} "
                 f"(predicted {r['predicted_slope']:.3f})", color=INK, fontsize=8)
     ax.text(4.6, 6.5, 'N = 3 and 5 with circulation: about 6 s, whatever the start', color=INK, fontsize=8)
-    ax.set_xlabel(r'$\ln(1/\varepsilon)$     ($\varepsilon$ = distance of the start from perfect symmetry)')
+    ax.set_xlabel(r'$\ln(1/\varepsilon)$     ($\varepsilon$ = rotation of the start from perfect symmetry, rad)')
     ax.set_ylim(5, 19)
     ax.set_ylabel('time to finish (s)')
     save(fig, 'fig_stall.pdf')
