@@ -1,0 +1,47 @@
+sweep {'k': 1.2, 'N': 3, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 6, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 8, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 10, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 12, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 14, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.2, 'N': 20, 'deadlock_phases': 0, 'theorem6_predicts_none': False}
+sweep {'k': 1.6, 'N': 3, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 6, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 8, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 10, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 12, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 14, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 1.6, 'N': 20, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 3, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 6, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 8, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 10, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 12, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 14, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 2.0, 'N': 20, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 3, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 6, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 8, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 10, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 12, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 14, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+sweep {'k': 3.0, 'N': 20, 'deadlock_phases': 0, 'theorem6_predicts_none': True}
+free-space min ||r||/||n|| 0.004201655711711942
+ring {'N': 3, 'central': False, 'completed': True, 'time_s': 6.42}
+ring {'N': 3, 'central': True, 'completed': True, 'time_s': 5.76}
+ring {'N': 6, 'central': False, 'completed': True, 'time_s': 8.54}
+ring {'N': 6, 'central': True, 'completed': True, 'time_s': 6.44}
+ring {'N': 10, 'central': False, 'completed': True, 'time_s': 14.16}
+ring {'N': 10, 'central': True, 'completed': True, 'time_s': 11.5}
+ring {'N': 14, 'central': False, 'completed': True, 'time_s': 20.28}
+ring {'N': 14, 'central': True, 'completed': True, 'time_s': 17.02}
+ring {'N': 20, 'central': False, 'completed': True, 'time_s': 30.1}
+ring {'N': 20, 'central': True, 'completed': True, 'time_s': 25.98}
+perturbed {'N': 6, 'decentralized_completed': '8/8'}
+perturbed {'N': 10, 'decentralized_completed': '8/8'}
+perturbed {'N': 14, 'decentralized_completed': '8/8'}
+parked {'y0': -1.0, 'completed': True, 'time_s': 7.72}
+parked {'y0': -0.65, 'completed': True, 'time_s': 7.78}
+parked {'y0': 0.65, 'completed': True, 'time_s': 8.9}
+parked {'y0': 1.0, 'completed': True, 'time_s': 9.48}
+headon {'completed': True, 'time_s': 6.06}

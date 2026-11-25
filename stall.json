@@ -1,0 +1,114 @@
+[
+  {
+    "N": 3,
+    "circulation": false,
+    "predicted_slope": 0.4064101615137754,
+    "fitted_slope": 0.41692270262712167,
+    "runs": [
+      [
+        0.01,
+        7.74,
+        true
+      ],
+      [
+        0.0001,
+        9.66,
+        true
+      ],
+      [
+        1e-06,
+        11.58,
+        true
+      ],
+      [
+        1e-08,
+        13.5,
+        true
+      ]
+    ]
+  },
+  {
+    "N": 3,
+    "circulation": true,
+    "predicted_slope": null,
+    "fitted_slope": 0.0013028834457096536,
+    "runs": [
+      [
+        0.01,
+        5.96,
+        true
+      ],
+      [
+        0.0001,
+        5.98,
+        true
+      ],
+      [
+        1e-06,
+        5.98,
+        true
+      ],
+      [
+        1e-08,
+        5.98,
+        true
+      ]
+    ]
+  },
+  {
+    "N": 5,
+    "circulation": false,
+    "predicted_slope": 0.6406397086062202,
+    "fitted_slope": 0.6514417228548779,
+    "runs": [
+      [
+        0.01,
+        8.620000000000001,
+        true
+      ],
+      [
+        0.0001,
+        11.620000000000001,
+        true
+      ],
+      [
+        1e-06,
+        14.620000000000001,
+        true
+      ],
+      [
+        1e-08,
+        17.62,
+        true
+      ]
+    ]
+  },
+  {
+    "N": 5,
+    "circulation": true,
+    "predicted_slope": null,
+    "fitted_slope": 1.5794122448970496e-17,
+    "runs": [
+      [
+        0.01,
+        5.74,
+        true
+      ],
+      [
+        0.0001,
+        5.74,
+        true
+      ],
+      [
+        1e-06,
+        5.74,
+        true
+      ],
+      [
+        1e-08,
+        5.74,
+        true
+      ]
+    ]
+  }
+]

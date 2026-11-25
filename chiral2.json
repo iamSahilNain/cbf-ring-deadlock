@@ -1,0 +1,278 @@
+{
+  "delta": 0.02,
+  "sweep": [
+    {
+      "k": 1.2,
+      "N": 3,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 6,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 8,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 10,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 12,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 14,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.2,
+      "N": 20,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": false
+    },
+    {
+      "k": 1.6,
+      "N": 3,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 6,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 8,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 10,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 12,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 14,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 1.6,
+      "N": 20,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 3,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 6,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 8,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 10,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 12,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 14,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 2.0,
+      "N": 20,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 3,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 6,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 8,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 10,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 12,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 14,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    },
+    {
+      "k": 3.0,
+      "N": 20,
+      "deadlock_phases": 0,
+      "theorem6_predicts_none": true
+    }
+  ],
+  "free_space": 0.004201655711711942,
+  "rings": [
+    {
+      "N": 3,
+      "central": false,
+      "completed": true,
+      "time_s": 6.42
+    },
+    {
+      "N": 3,
+      "central": true,
+      "completed": true,
+      "time_s": 5.76
+    },
+    {
+      "N": 6,
+      "central": false,
+      "completed": true,
+      "time_s": 8.54
+    },
+    {
+      "N": 6,
+      "central": true,
+      "completed": true,
+      "time_s": 6.44
+    },
+    {
+      "N": 10,
+      "central": false,
+      "completed": true,
+      "time_s": 14.16
+    },
+    {
+      "N": 10,
+      "central": true,
+      "completed": true,
+      "time_s": 11.5
+    },
+    {
+      "N": 14,
+      "central": false,
+      "completed": true,
+      "time_s": 20.28
+    },
+    {
+      "N": 14,
+      "central": true,
+      "completed": true,
+      "time_s": 17.02
+    },
+    {
+      "N": 20,
+      "central": false,
+      "completed": true,
+      "time_s": 30.1
+    },
+    {
+      "N": 20,
+      "central": true,
+      "completed": true,
+      "time_s": 25.98
+    }
+  ],
+  "perturbed": [
+    {
+      "N": 6,
+      "decentralized_completed": "8/8"
+    },
+    {
+      "N": 10,
+      "decentralized_completed": "8/8"
+    },
+    {
+      "N": 14,
+      "decentralized_completed": "8/8"
+    }
+  ],
+  "parked": [
+    {
+      "y0": -1.0,
+      "completed": true,
+      "time_s": 7.72
+    },
+    {
+      "y0": -0.65,
+      "completed": true,
+      "time_s": 7.78
+    },
+    {
+      "y0": 0.65,
+      "completed": true,
+      "time_s": 8.9
+    },
+    {
+      "y0": 1.0,
+      "completed": true,
+      "time_s": 9.48
+    }
+  ],
+  "headon": [
+    {
+      "completed": true,
+      "time_s": 6.06
+    }
+  ]
+}

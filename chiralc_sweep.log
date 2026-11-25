@@ -1,0 +1,4 @@
+k=0.8: theorem predicts none iff k*min(1,sin(pi/N)/delta) > 1 (k>1 for N<=157);  deadlock phases per N: [(3, 0), (6, 0), (8, 0), (12, 69), (16, 107), (20, 118), (30, 126)]
+k=1.05: theorem predicts none iff k*min(1,sin(pi/N)/delta) > 1 (k>1 for N<=157);  deadlock phases per N: [(3, 0), (6, 0), (8, 0), (12, 0), (16, 0), (20, 0), (30, 0)]
+k=1.5: theorem predicts none iff k*min(1,sin(pi/N)/delta) > 1 (k>1 for N<=157);  deadlock phases per N: [(3, 0), (6, 0), (8, 0), (12, 0), (16, 0), (20, 0), (30, 0)]
+k=2.0: theorem predicts none iff k*min(1,sin(pi/N)/delta) > 1 (k>1 for N<=157);  deadlock phases per N: [(3, 0), (6, 0), (8, 0), (12, 0), (16, 0), (20, 0), (30, 0)]
